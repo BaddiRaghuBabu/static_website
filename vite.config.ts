@@ -6,6 +6,7 @@ import tailwindcss from "@tailwindcss/vite"
 
 
 export default defineConfig({
+   base: '/', // ✅ Important for correct asset loading on Vercel
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {
