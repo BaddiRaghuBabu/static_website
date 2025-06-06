@@ -7,7 +7,7 @@ export const DiplayPages = () => {
   return (
     <div>
        <Router>
-          <div className=""> {/* Push routes 200px to the right */}
+          <div className=""> 
             <Routes>
                 <Route path="/BatchDataEngineering" element={<BatchDataEngineering />} />
                 <Route path="/RealTimeDataEngineering" element={<RealTimeDataEngineering />} />

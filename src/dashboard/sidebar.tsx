@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 import { MdOutlineEngineering, MdWork, MdTravelExplore,  } from "react-icons/md";
 import { cn } from "@/lib/utils"; // ShadCN UI helper
-import { DiplayPages } from "@/Diplaypage/DiplayPages";
+import { DiplayPages } from "@/Diplaypage/router";
 
 export default function Sidebar() {
   const [isOpen, setIsOpen] = useState(true);
